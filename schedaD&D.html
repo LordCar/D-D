@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="schedaD&D.css">
+    <title>PROVA</title>
+    <h1>Scheda Personaggio</h1>
+</head>
+
+<body>
+
+    <div class="container1On">
+        <div class="input-container">
+            <input type="button" id="genera" value="Genera tiro dei dadi">
+        </div>
+    </div>
+    <table border="1" align="center" class="tabellaOff" id="tabellaValori"></table>
+    <br>
+    <div class="containerOff" id="riesegui_conferma">
+        <input type="button" id="riesegui" value="Riesegui" onclick="">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <input type="button" id="conferma" value="Conferma">
+    </div>
+    
+    <h2 class="containerOff">Assegna i valori alle caratteristiche</h2>
+   
+    <input class="containerOff" type="button" id="ripristina" value="Ripristina">
+    <br>
+    <br>
+    <input class="containerOff" type="button" id="scaricaSchedina" value="Scarica Schedina">
+    <br>
+    <br>
+        <div class="container2On">
+            <table class="tabellaOff" id="tabellaAssegnazioni"></table>
+            <table class="tabellaOff" id="tabellaDefinizione"></table>
+            <!-- <form name="invio-dati" method="post"> 
+                
+            </form> -->
+        </div>
+   
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+<script src="schedaD&D.js"></script>
+</body>
+</html>
